@@ -1,0 +1,85 @@
+body {
+	background: #2c3e50;
+	font-family: 'Roboto';
+}
+#map {
+	display: block;
+	margin: 10px auto 0 auto;
+	background: #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 3px #000;
+}
+a {
+	text-decoration: none;
+}
+#player, #enemy, #waves {
+	display: block;
+	margin: -512px auto 0;
+}
+
+.button {
+	display: block;
+	width: 100px;
+	margin: 20px 13% 0;
+	box-sizing: border-box;
+	padding: 5px;
+	background: #fff;
+	text-align: center;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.welcome {
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+}
+.row {
+	position: absolute;
+	margin-top: 1300px;
+	width: 1080px;
+	margin: 0 auto;
+}
+.result {
+	display: none;
+	width: 64%;
+	height: 600px;
+	background: #fff;
+	margin: 0 18%;
+	position: absolute;
+	border-radius: 4px;
+}
+
+.result > p {
+	box-sizing: border-box;
+	padding: 10px 20px;
+	border-bottom: solid #eee 1px;
+}
+.result > img {
+	width: 30%;
+	left: 0;
+	margin-top: -35px;
+	border-radius: 0 0 4px 4px;	
+}
+.form {
+	margin-top: 400px;
+}
+#unmute {
+	display: none;
+}
+.rate-table {
+	position: absolute;
+	display: inline-block;
+	width: 70%;
+	right: 0;
+	top: 60px;
+}
+.about {
+	width: 200px;
+	margin-left: 3.5%;
+	color: #fefefe;
+	background: #2980b9;
+	text-align: center;
+	
+}
