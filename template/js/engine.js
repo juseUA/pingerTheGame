@@ -39,6 +39,8 @@ window.oRequestAnimationFrame ||
 window.mozRequestAnimationFrame ||
 window.msRequestAnimationFrame;
 
+
+
 var isPlaying;
 
 var heal;
